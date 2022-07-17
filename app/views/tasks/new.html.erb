@@ -1,6 +1,6 @@
 <h2>Please add new task</h2>
 
-<%= form_for(@task) do |f| %>
+<%= simple_form_for(@task) do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %>
   <%= f.label :details %>
